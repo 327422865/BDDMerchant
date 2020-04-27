@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  BDDMerchant
+//
+//  Created by 彭英科 on 2020/4/24.
+//  Copyright © 2020 宝多多. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "MacroDefinitionHeader.h"
+#import "UIColor+BDDMCategory.h"
+#import "BDDMHttpTool.h"
+#import <Masonry.h>
+#import "BDDMHUD.h"
+#import <UIView+MJExtension.h>
+#import <NSString+MJExtension.h>
+#import "UIViewController+MBPHUD.h"
+//#import "BDDMTool.h"
+
+
+
+
+//LBXScan 如果需要使用LBXScanViewController控制器代码，那么下载了那些模块，请定义对应的宏
+#define LBXScan_Define_Native  //包含native库
+#define LBXScan_Define_UI     //包含界面库
+
+#endif /* PrefixHeader_pch */
