@@ -40,6 +40,7 @@ PODS:
   - SDWebImage/Core (4.3.3)
   - SVProgressHUD (2.2.5)
   - UICKeyChainStore (2.1.2)
+  - WebViewJavascriptBridge (6.0.3)
   - WMPageController (2.5.2)
   - YBImageBrowser (1.1.2):
     - FLAnimatedImage (~> 1.0.12)
@@ -69,6 +70,7 @@ DEPENDENCIES:
   - RTRootNavigationController (~> 0.7.2)
   - SDCycleScrollView
   - SVProgressHUD
+  - WebViewJavascriptBridge (~> 6.0.3)
   - WMPageController (~> 2.5.2)
   - YBImageBrowser (~> 1.1.1)
   - YYText
@@ -93,6 +95,7 @@ SPEC REPOS:
     - SDWebImage
     - SVProgressHUD
     - UICKeyChainStore
+    - WebViewJavascriptBridge
     - WMPageController
     - YBImageBrowser
     - YYCache
@@ -118,6 +121,7 @@ SPEC CHECKSUMS:
   SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   UICKeyChainStore: 85db518bb1d294366d15ec9b92a416c4e670518f
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
   WMPageController: 0c7624d2b48e4f1ab92371688cf6744ed701575d
   YBImageBrowser: 3e61edabcb1927ddc095a96465f47fc551b8f9bf
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
@@ -125,6 +129,6 @@ SPEC CHECKSUMS:
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: f87de5b592cd4fc3746f4d33bdf964c451591311
+PODFILE CHECKSUM: 0edd52faa962a9f2af2367ba8bd1bcfefa23d2e6
 
 COCOAPODS: 1.9.1

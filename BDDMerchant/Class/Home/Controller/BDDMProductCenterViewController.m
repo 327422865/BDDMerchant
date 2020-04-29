@@ -20,8 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor redColor];
+    self.view.backgroundColor = [UIColor grayColor];
     self.navigationItem.title = @"我是首页";
     
     NSString *url = login_Url;
@@ -31,19 +30,6 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     DLog(@"点到我啦");
-//    [BDDMHttpTool POST:login_Url parameters:@{@"name" : @"sss",@"passwad" : @"123"} success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-//
-//      } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-//
-//      }];
-    
-//    if ([BDDMHttpTool isWiFi]) {
-//          DLog(@"有WiFi");
-//      }else{
-//          DLog(@"没有iFi");
-//      }
-    
-    
     [self QRScan];
 }
 

@@ -30,6 +30,7 @@
 		D05E7A9524540FE60091C3FF /* LBXPermissionCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E7A8424540FE60091C3FF /* LBXPermissionCamera.m */; };
 		D05E7A9624540FE60091C3FF /* LBXPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E7A8524540FE60091C3FF /* LBXPermission.m */; };
 		D05E7A99245410D00091C3FF /* UIImageView+BDDMWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E7A98245410D00091C3FF /* UIImageView+BDDMWebCache.m */; };
+		D0BD85D724580FEA00F6AF49 /* BDDMWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BD85D624580FEA00F6AF49 /* BDDMWebViewController.m */; };
 		D0CC0B502452970600B6BF35 /* BDDMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CC0B4F2452970600B6BF35 /* BDDMBaseViewController.m */; };
 		D0CC0B532452976000B6BF35 /* BDDMBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CC0B522452976000B6BF35 /* BDDMBaseNavigationController.m */; };
 		D0CC0B56245297B600B6BF35 /* BDDMBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CC0B55245297B600B6BF35 /* BDDMBaseTabBarController.m */; };
@@ -120,6 +121,8 @@
 		D05E7A8A24540FE60091C3FF /* LBXPermissionReminders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionReminders.h; sourceTree = "<group>"; };
 		D05E7A97245410D00091C3FF /* UIImageView+BDDMWebCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+BDDMWebCache.h"; sourceTree = "<group>"; };
 		D05E7A98245410D00091C3FF /* UIImageView+BDDMWebCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BDDMWebCache.m"; sourceTree = "<group>"; };
+		D0BD85D524580FEA00F6AF49 /* BDDMWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDMWebViewController.h; sourceTree = "<group>"; };
+		D0BD85D624580FEA00F6AF49 /* BDDMWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDMWebViewController.m; sourceTree = "<group>"; };
 		D0CC0B47245290C300B6BF35 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		D0CC0B4E2452970600B6BF35 /* BDDMBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDMBaseViewController.h; sourceTree = "<group>"; };
 		D0CC0B4F2452970600B6BF35 /* BDDMBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDMBaseViewController.m; sourceTree = "<group>"; };
@@ -259,6 +262,15 @@
 			path = LBXPermissions;
 			sourceTree = "<group>";
 		};
+		D0BD85D424580F2700F6AF49 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD85D524580FEA00F6AF49 /* BDDMWebViewController.h */,
+				D0BD85D624580FEA00F6AF49 /* BDDMWebViewController.m */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
 		D0CC0B3D24528EE300B6BF35 /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -286,6 +298,7 @@
 		D0CC0B3F24528F0D00B6BF35 /* General */ = {
 			isa = PBXGroup;
 			children = (
+				D0BD85D424580F2700F6AF49 /* WebView */,
 				D05E7A6824540C640091C3FF /* QRCodeScan */,
 			);
 			path = General;
@@ -797,6 +810,7 @@
 				D05E7A9624540FE60091C3FF /* LBXPermission.m in Sources */,
 				D0CC0B842452D84D00B6BF35 /* BDDMConstant.m in Sources */,
 				D05E7A8E24540FE60091C3FF /* LBXPermissionReminders.m in Sources */,
+				D0BD85D724580FEA00F6AF49 /* BDDMWebViewController.m in Sources */,
 				D05E7A8F24540FE60091C3FF /* LBXPermissionHealth.m in Sources */,
 				D05E7A602453D76D0091C3FF /* UILabel+BDDMCopy.m in Sources */,
 				D0CC0B8A2452DF2D00B6BF35 /* BDDMHUD.m in Sources */,
