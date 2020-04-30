@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "BDDMBaseTabBarController.h"
+#import "AppDelegate+BDDMADLaunch.h"
+#import "BDDMLoginRegisterVC.h"
 
 @interface AppDelegate ()
 
@@ -23,7 +25,9 @@
     } else {
         [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault animated:YES];
     }
+   
     [self setupWindow];
+    [self ADlaunchScreen];
     [self setupWithApplication:application withOptions:launchOptions];
    
     
@@ -41,7 +45,9 @@
 }
 
 - (void)setupRootVC {
+    
     BDDMBaseTabBarController *navi = [[BDDMBaseTabBarController alloc] init];
+    BDDMLoginRegisterVC *loginVC = [[BDDMLoginRegisterVC alloc] init];
     self.window.rootViewController = navi;
 }
 

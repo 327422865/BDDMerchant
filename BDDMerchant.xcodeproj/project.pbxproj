@@ -31,6 +31,11 @@
 		D05E7A9624540FE60091C3FF /* LBXPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E7A8524540FE60091C3FF /* LBXPermission.m */; };
 		D05E7A99245410D00091C3FF /* UIImageView+BDDMWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E7A98245410D00091C3FF /* UIImageView+BDDMWebCache.m */; };
 		D0BD85D724580FEA00F6AF49 /* BDDMWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BD85D624580FEA00F6AF49 /* BDDMWebViewController.m */; };
+		D0BD85DA24592A0900F6AF49 /* BDDMLinkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BD85D924592A0900F6AF49 /* BDDMLinkTool.m */; };
+		D0BD85DE245968EC00F6AF49 /* BDDMGetDevInfoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BD85DD245968EC00F6AF49 /* BDDMGetDevInfoUtil.m */; };
+		D0BD85E124596AE300F6AF49 /* AppDelegate+BDDMADLaunch.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BD85E024596AE300F6AF49 /* AppDelegate+BDDMADLaunch.m */; };
+		D0BD85E92459808800F6AF49 /* BDDMLoginRegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BD85E72459808800F6AF49 /* BDDMLoginRegisterVC.m */; };
+		D0BD85EA2459808800F6AF49 /* BDDMLoginRegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0BD85E82459808800F6AF49 /* BDDMLoginRegisterVC.xib */; };
 		D0CC0B502452970600B6BF35 /* BDDMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CC0B4F2452970600B6BF35 /* BDDMBaseViewController.m */; };
 		D0CC0B532452976000B6BF35 /* BDDMBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CC0B522452976000B6BF35 /* BDDMBaseNavigationController.m */; };
 		D0CC0B56245297B600B6BF35 /* BDDMBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CC0B55245297B600B6BF35 /* BDDMBaseTabBarController.m */; };
@@ -123,6 +128,15 @@
 		D05E7A98245410D00091C3FF /* UIImageView+BDDMWebCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BDDMWebCache.m"; sourceTree = "<group>"; };
 		D0BD85D524580FEA00F6AF49 /* BDDMWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDMWebViewController.h; sourceTree = "<group>"; };
 		D0BD85D624580FEA00F6AF49 /* BDDMWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDMWebViewController.m; sourceTree = "<group>"; };
+		D0BD85D824592A0900F6AF49 /* BDDMLinkTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDMLinkTool.h; sourceTree = "<group>"; };
+		D0BD85D924592A0900F6AF49 /* BDDMLinkTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDMLinkTool.m; sourceTree = "<group>"; };
+		D0BD85DC245968EC00F6AF49 /* BDDMGetDevInfoUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDMGetDevInfoUtil.h; sourceTree = "<group>"; };
+		D0BD85DD245968EC00F6AF49 /* BDDMGetDevInfoUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDMGetDevInfoUtil.m; sourceTree = "<group>"; };
+		D0BD85DF24596AE300F6AF49 /* AppDelegate+BDDMADLaunch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+BDDMADLaunch.h"; sourceTree = "<group>"; };
+		D0BD85E024596AE300F6AF49 /* AppDelegate+BDDMADLaunch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+BDDMADLaunch.m"; sourceTree = "<group>"; };
+		D0BD85E62459808800F6AF49 /* BDDMLoginRegisterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDMLoginRegisterVC.h; sourceTree = "<group>"; };
+		D0BD85E72459808800F6AF49 /* BDDMLoginRegisterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDMLoginRegisterVC.m; sourceTree = "<group>"; };
+		D0BD85E82459808800F6AF49 /* BDDMLoginRegisterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BDDMLoginRegisterVC.xib; sourceTree = "<group>"; };
 		D0CC0B47245290C300B6BF35 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		D0CC0B4E2452970600B6BF35 /* BDDMBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDMBaseViewController.h; sourceTree = "<group>"; };
 		D0CC0B4F2452970600B6BF35 /* BDDMBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDMBaseViewController.m; sourceTree = "<group>"; };
@@ -271,11 +285,32 @@
 			path = WebView;
 			sourceTree = "<group>";
 		};
+		D0BD85DB245968C000F6AF49 /* GetDevInfoUtil */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD85DC245968EC00F6AF49 /* BDDMGetDevInfoUtil.h */,
+				D0BD85DD245968EC00F6AF49 /* BDDMGetDevInfoUtil.m */,
+			);
+			path = GetDevInfoUtil;
+			sourceTree = "<group>";
+		};
+		D0BD85E52459802300F6AF49 /* LoginRegister */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD85E62459808800F6AF49 /* BDDMLoginRegisterVC.h */,
+				D0BD85E72459808800F6AF49 /* BDDMLoginRegisterVC.m */,
+				D0BD85E82459808800F6AF49 /* BDDMLoginRegisterVC.xib */,
+			);
+			path = LoginRegister;
+			sourceTree = "<group>";
+		};
 		D0CC0B3D24528EE300B6BF35 /* Main */ = {
 			isa = PBXGroup;
 			children = (
 				D0D2FAA4245284DB00775D2D /* AppDelegate.h */,
 				D0D2FAA5245284DB00775D2D /* AppDelegate.m */,
+				D0BD85DF24596AE300F6AF49 /* AppDelegate+BDDMADLaunch.h */,
+				D0BD85E024596AE300F6AF49 /* AppDelegate+BDDMADLaunch.m */,
 				D0D2FAAA245284DB00775D2D /* ViewController.h */,
 				D0D2FAAB245284DB00775D2D /* ViewController.m */,
 			);
@@ -307,6 +342,7 @@
 		D0CC0B4024528F2E00B6BF35 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				D0BD85DB245968C000F6AF49 /* GetDevInfoUtil */,
 				D05E7A7224540FE60091C3FF /* LBXPermissions */,
 			);
 			path = Library;
@@ -315,7 +351,7 @@
 		D0CC0B4124528F4200B6BF35 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				D0CC0B482452950300B6BF35 /* LoginRegister */,
+				D0BD85E52459802300F6AF49 /* LoginRegister */,
 				D0CC0B492452952300B6BF35 /* Home */,
 				D0CC0B4B245295A700B6BF35 /* Promote */,
 				D0CC0B4A2452952D00B6BF35 /* MyBuyer */,
@@ -332,6 +368,8 @@
 				D0CC0B582452983600B6BF35 /* BDDMTool.m */,
 				D0CC0B882452DF2D00B6BF35 /* BDDMHUD.h */,
 				D0CC0B892452DF2D00B6BF35 /* BDDMHUD.m */,
+				D0BD85D824592A0900F6AF49 /* BDDMLinkTool.h */,
+				D0BD85D924592A0900F6AF49 /* BDDMLinkTool.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -385,13 +423,6 @@
 				D0CC0B832452D84D00B6BF35 /* BDDMConstant.m */,
 			);
 			path = Macro;
-			sourceTree = "<group>";
-		};
-		D0CC0B482452950300B6BF35 /* LoginRegister */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = LoginRegister;
 			sourceTree = "<group>";
 		};
 		D0CC0B492452952300B6BF35 /* Home */ = {
@@ -717,6 +748,7 @@
 			files = (
 				D0D2FAB4245284DD00775D2D /* LaunchScreen.storyboard in Resources */,
 				D0D2FAB1245284DD00775D2D /* Assets.xcassets in Resources */,
+				D0BD85EA2459808800F6AF49 /* BDDMLoginRegisterVC.xib in Resources */,
 				D0D2FAAF245284DB00775D2D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -796,10 +828,14 @@
 				D0D2FAAC245284DB00775D2D /* ViewController.m in Sources */,
 				D0D2FAA6245284DB00775D2D /* AppDelegate.m in Sources */,
 				D05E7A9324540FE60091C3FF /* LBXPermissionLocation.m in Sources */,
+				D0BD85DA24592A0900F6AF49 /* BDDMLinkTool.m in Sources */,
 				D05E7A9424540FE60091C3FF /* LBXPermissionContacts.m in Sources */,
 				D0CC0B5C2452B98400B6BF35 /* NSDate+Utils.m in Sources */,
+				D0BD85E124596AE300F6AF49 /* AppDelegate+BDDMADLaunch.m in Sources */,
 				D05E7A8B24540FE60091C3FF /* LBXPermissionMicrophone.m in Sources */,
+				D0BD85E92459808800F6AF49 /* BDDMLoginRegisterVC.m in Sources */,
 				D0CC0B7E2452D45000B6BF35 /* BDDMHttpTool.m in Sources */,
+				D0BD85DE245968EC00F6AF49 /* BDDMGetDevInfoUtil.m in Sources */,
 				D0CC0B602452C0CD00B6BF35 /* UIColor+BDDMCategory.m in Sources */,
 				D0D2FAB7245284DD00775D2D /* main.m in Sources */,
 				D0CC0B592452983600B6BF35 /* BDDMTool.m in Sources */,

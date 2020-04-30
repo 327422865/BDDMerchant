@@ -12,6 +12,7 @@
 #import "MacroDefinitionHeader.h"
 #import "UIColor+BDDMCategory.h"
 #import "BDDMHttpTool.h"
+#import <MJExtension.h>
 #import <Masonry.h>
 #import "BDDMHUD.h"
 #import <UIView+MJExtension.h>
