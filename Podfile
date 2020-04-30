@@ -26,6 +26,9 @@ target 'BDDMerchant' do
  pod 'LBXScan/UI','~> 2.3'
  pod 'LXMButtonImagePosition'                        # button title和image位置的库
  pod 'WebViewJavascriptBridge', '~> 6.0.3'
+ pod 'WechatOpenSDK'                                 
+ pod 'AlipaySDK-iOS'
+
 
 
 end

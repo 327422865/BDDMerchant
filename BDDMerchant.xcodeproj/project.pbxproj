@@ -36,6 +36,7 @@
 		D0BD85E124596AE300F6AF49 /* AppDelegate+BDDMADLaunch.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BD85E024596AE300F6AF49 /* AppDelegate+BDDMADLaunch.m */; };
 		D0BD85E92459808800F6AF49 /* BDDMLoginRegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BD85E72459808800F6AF49 /* BDDMLoginRegisterVC.m */; };
 		D0BD85EA2459808800F6AF49 /* BDDMLoginRegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0BD85E82459808800F6AF49 /* BDDMLoginRegisterVC.xib */; };
+		D0BD85F1245A60FB00F6AF49 /* BDDMPayShareInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BD85F0245A60FB00F6AF49 /* BDDMPayShareInstance.m */; };
 		D0CC0B502452970600B6BF35 /* BDDMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CC0B4F2452970600B6BF35 /* BDDMBaseViewController.m */; };
 		D0CC0B532452976000B6BF35 /* BDDMBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CC0B522452976000B6BF35 /* BDDMBaseNavigationController.m */; };
 		D0CC0B56245297B600B6BF35 /* BDDMBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CC0B55245297B600B6BF35 /* BDDMBaseTabBarController.m */; };
@@ -82,6 +83,7 @@
 		1D5191A3171C933C3CF08960 /* Pods-BDDMerchant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDDMerchant.debug.xcconfig"; path = "Target Support Files/Pods-BDDMerchant/Pods-BDDMerchant.debug.xcconfig"; sourceTree = "<group>"; };
 		92DAB30B6E8E004950934E0D /* libPods-BDDMerchant.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BDDMerchant.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92C50999A8A1B24784947B8 /* Pods-BDDMerchant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDDMerchant.release.xcconfig"; path = "Target Support Files/Pods-BDDMerchant/Pods-BDDMerchant.release.xcconfig"; sourceTree = "<group>"; };
+		D007B9F8245AD0B7003F7B31 /* 宝多多商家.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "宝多多商家.entitlements"; sourceTree = "<group>"; };
 		D05E7A552453D35A0091C3FF /* UIButton+BDDMTouchArea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+BDDMTouchArea.h"; sourceTree = "<group>"; };
 		D05E7A562453D35A0091C3FF /* UIButton+BDDMTouchArea.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BDDMTouchArea.m"; sourceTree = "<group>"; };
 		D05E7A582453D6D70091C3FF /* UIView+Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Geometry.h"; sourceTree = "<group>"; };
@@ -137,6 +139,8 @@
 		D0BD85E62459808800F6AF49 /* BDDMLoginRegisterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDMLoginRegisterVC.h; sourceTree = "<group>"; };
 		D0BD85E72459808800F6AF49 /* BDDMLoginRegisterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDMLoginRegisterVC.m; sourceTree = "<group>"; };
 		D0BD85E82459808800F6AF49 /* BDDMLoginRegisterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BDDMLoginRegisterVC.xib; sourceTree = "<group>"; };
+		D0BD85EF245A60FB00F6AF49 /* BDDMPayShareInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDMPayShareInstance.h; sourceTree = "<group>"; };
+		D0BD85F0245A60FB00F6AF49 /* BDDMPayShareInstance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDMPayShareInstance.m; sourceTree = "<group>"; };
 		D0CC0B47245290C300B6BF35 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		D0CC0B4E2452970600B6BF35 /* BDDMBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDDMBaseViewController.h; sourceTree = "<group>"; };
 		D0CC0B4F2452970600B6BF35 /* BDDMBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDMBaseViewController.m; sourceTree = "<group>"; };
@@ -304,6 +308,15 @@
 			path = LoginRegister;
 			sourceTree = "<group>";
 		};
+		D0BD85EE245A60CE00F6AF49 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD85EF245A60FB00F6AF49 /* BDDMPayShareInstance.h */,
+				D0BD85F0245A60FB00F6AF49 /* BDDMPayShareInstance.m */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
 		D0CC0B3D24528EE300B6BF35 /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -321,7 +334,7 @@
 			isa = PBXGroup;
 			children = (
 				D0CC0B4D2452967300B6BF35 /* Base */,
-				D0CC0B4524528FC800B6BF35 /* Singleton */,
+				D0BD85EE245A60CE00F6AF49 /* Singleton */,
 				D0CC0B4424528FAE00B6BF35 /* Category */,
 				D0CC0B4324528F9400B6BF35 /* NetWork */,
 				D0CC0B4224528F8200B6BF35 /* Tool */,
@@ -406,13 +419,6 @@
 				D05E7A98245410D00091C3FF /* UIImageView+BDDMWebCache.m */,
 			);
 			path = Category;
-			sourceTree = "<group>";
-		};
-		D0CC0B4524528FC800B6BF35 /* Singleton */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Singleton;
 			sourceTree = "<group>";
 		};
 		D0CC0B4624528FFA00B6BF35 /* Macro */ = {
@@ -598,6 +604,7 @@
 		D0D2FAA3245284DB00775D2D /* BDDMerchant */ = {
 			isa = PBXGroup;
 			children = (
+				D007B9F8245AD0B7003F7B31 /* 宝多多商家.entitlements */,
 				D0CC0B4124528F4200B6BF35 /* Class */,
 				D0CC0B4024528F2E00B6BF35 /* Library */,
 				D0CC0B3F24528F0D00B6BF35 /* General */,
@@ -860,6 +867,7 @@
 				D05E7A672453EB700091C3FF /* UIView+MBPHUD.m in Sources */,
 				D0CC0B662452C41300B6BF35 /* BDDMProductCenterViewController.m in Sources */,
 				D05E7A9124540FE60091C3FF /* LBXPermissionSetting.m in Sources */,
+				D0BD85F1245A60FB00F6AF49 /* BDDMPayShareInstance.m in Sources */,
 				D05E7A8D24540FE60091C3FF /* LBXPermissionCalendar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1030,8 +1038,10 @@
 			baseConfigurationReference = 1D5191A3171C933C3CF08960 /* Pods-BDDMerchant.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "BDDMerchant/宝多多商家.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QS6NR6CCHH;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/BDDMerchant/PrefixHeader.pch";
 				INFOPLIST_FILE = BDDMerchant/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1040,6 +1050,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.baoduoduo.BDDMerchant;
 				PRODUCT_NAME = "宝多多商家";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1049,8 +1060,10 @@
 			baseConfigurationReference = C92C50999A8A1B24784947B8 /* Pods-BDDMerchant.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "BDDMerchant/宝多多商家.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QS6NR6CCHH;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/BDDMerchant/PrefixHeader.pch";
 				INFOPLIST_FILE = BDDMerchant/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1059,6 +1072,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.baoduoduo.BDDMerchant;
 				PRODUCT_NAME = "宝多多商家";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

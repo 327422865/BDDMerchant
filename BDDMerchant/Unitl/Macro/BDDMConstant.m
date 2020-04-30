@@ -15,6 +15,7 @@ NSString * const My_AppScheme       = @"yshbz";                             // �
 #pragma mark - 第三方Key/Secret/AppID
 NSString * const BUGLY_APPID        = @"028fa2f0ed";                        // bugly
 int        const TIM_APPID          = 1400076035;                           // 腾讯云通信 TIM APP ID
+NSString * const Wechat_APPID       = @"wxdc9f013f32195f13";                // 微信 AppID(APP KEY)
 
 #pragma mark - 通知key
 NSString * const DidChangeCommunityNotification                 = @"DidChangeCommunityNotification";
